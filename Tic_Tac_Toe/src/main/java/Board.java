@@ -101,7 +101,7 @@ public class Board {
         		if(count / moveCount > 1 / 3 || count > 3) return false;
         	}
         }
-        return true;
+        return false;
     }
     
 
